@@ -1,0 +1,54 @@
+$colorMain: #050038;
+$colorBlock: #FFD02F;
+$colorLink: #4262FF;
+
+@mixin FontH2 {
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: $colorMain;
+}
+
+%list {
+    display: flex;
+    margin-bottom: 26px;
+}
+
+%item {
+    margin-right: 8px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+%linkList {
+    color: $colorMain;
+    font-size: 14px;
+    line-height: 20px;
+    border: 1px solid #F2F2F2;
+    border-radius: 24px;
+}
+
+%paddingL {
+    padding-left: 50px;
+}
+
+%colorText {
+    color: rgba(5, 0, 56, 0.6);
+}
+
+%MRfooter {
+    margin-right: 20px;
+}
+
+@media (max-width:769px) {
+    
+
+}
+
+@media (max-width:322px) {
+
+    
+}
